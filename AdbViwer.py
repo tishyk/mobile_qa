@@ -7,7 +7,6 @@ import subprocess as sp
 
 '''
 Created on 16.07.2015
-
 @author: s.tischenko
 '''
 class AdbViwer:
@@ -51,9 +50,7 @@ class AdbViwer:
             pickle.dump(pickle_data, f)
             
     def update_pickle_data(self):
-        '''
-        Method for update data from device to previously saved data in pickle file
-        '''
+        '''Method for update data from device to previously saved data in pickle file'''
         time.clock()
         self.initialize()
         pickle_data = self.get_pickle_data()
