@@ -1,0 +1,41 @@
+Group	Activity	Activity description	Will be executed?	How many times	Activity duration	Average time for activity
+Requirement Management	Requirements clarification	Gather requirements from stakeholder	Yes	1	10	10
+	Requirements review	Check the requirements document for anomalies and omissions	Yes	16	49	3
+	Traceability matrix creation	Requirements traceability matrix may be used to check to see that each requirements are covered by test(s)	Yes	2	10	5
+Requirement Management				19	69	4
+Test Management	Test analysis and design	All activities that defines “what” will be tested in the form of test conditions and “how” something is to be tested	Yes	1	5	5
+	Test data gathering	Creation of learning content, Creation of testing content 	TBD	0	0	
+	Test case implementation	Activities of tests organizinng and prioritization	Yes	2	10	5
+	Test case updating	Activities of tests revisiting and updating	Yes	13	13	1
+	Bug tracker review	Revisiting tickets in project task tracker system (QA&Dev activities). Resolved issues verifying, Bug status updating, etc	Yes	37	149	4
+	Functional testing	Functional testing (UI), Functional testing (non UI) 	Yes	37	298	8
+	Exploratory testing	What is exploratory testing in software testing	Yes	31	129	4
+	Performance testing	What is performance testing (stress, battery, memory, stability, etc.	Yes	17	17	1
+	Compatibility testing	What is compatibility testing in software	TBD	0	0	
+	All another testing types	What are software test types exist	Yes	32	110	3
+Test Management				170	731	4
+Automation	Automate routines	Automate routine tasks (build downloading, installing, etc.	Yes	5	25	5
+	Design automation framework	The process of designing an automated test framework	TBD	0	0	
+	Develop automation test script	Automated test script implementation and refactoring	Yes	6	28	5
+	Test script execution and results analysis	Scripts execution, results  analyzing and defects reporting, if any.	TBD	0	0	
+			TBD	0	0	
+			TBD	0	0	
+Automation				11	53	5
+Transfer Verification Process	Static code analysis	Analyse source code using Prevent/Klocwork/Sonar/CPP or any another static code analysis tools	Yes	3	12	4
+	Open Source Verification	Open Source Verification using Protex tool	Yes	3	12	4
+	Release mangment (CI)	Establish a regular release cycle with release infrastructure (TeamCity cofiguring and support)	TBD	0	0	
+Transfer Verification Process				6	24	4
+Document Management	S/W Requirement Specification	SRS review and approve	Yes	3	15	5
+	S/W Test Plan	STP creation, revisiting, updating, etc.	Yes	6	30	5
+	S/W High Level Design	HLD review and approve	Yes	3	15	5
+	S/W Test Report (test-cases)	STR creation, revisiting, updating, etc.	Yes	5	31	6
+	S/W Test Report	STR creation, revisiting, updating, etc.	Yes	5	37	7
+	S/W Completion Report	Compition report creation	TBD	0	0	
+	Internal Project Status Reports	All additional and custom reports	TBD	0	0	
+Document Management				22	128	6
+Other	SQA avtivities revisiting	QA activities&strategy planning, revisiting and coordination with SW Dev team	TBD	0	0	
+	Improve knowledge of domain area	Courses visiting, books reading, etc.	Yes	14	66	5
+	[Example 1] Market research	Competitors research and overall market analysis	TBD	0	0	
+	[Example 2] Demos preparation	Presentation preparation, video demos creation, etc	TBD	0	0	
+	[Example 3] Test environment setting	Test environment setting and configuring	TBD	0	0	
+	[Example 4] Environment acceptance testing	Soft and hardware testing/development environment acceptance verification	TBD	0	0	
